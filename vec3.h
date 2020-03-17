@@ -1,3 +1,6 @@
+#ifndef VEC3_H
+#define VEC3_H
+
 #include <cmath>
 #include <iostream>
 
@@ -144,3 +147,6 @@ inline void vec3::make_unit_vector() {
 inline vec3 unit_vector(const vec3& v) {
     return v / v.length();
 }
+
+#endif
+
